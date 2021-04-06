@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clip"
+        android:title="@string/clip" />
+
+    <item
+        android:id="@+id/wiki_page"
+        android:title="@string/wiki" />
+
+    <item
+        android:id="@+id/band_page"
+        android:title="@string/wiki2" />
+
+</menu>

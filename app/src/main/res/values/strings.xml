@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project2</string>
+    <string name="grid_view">Grid View</string>
+    <string name="list_view">List View</string>
+    <string name="clip">Video Clip</string>
+    <string name="wiki">Song Wikipedia Page</string>
+    <string name="wiki2">Band\'s Wikipedia Page</string>
+</resources>
