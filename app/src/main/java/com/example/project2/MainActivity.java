@@ -3,7 +3,6 @@ package com.example.project2;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.*;
 
-import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -19,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
             "  Kyuss", "  Reignwolf", "  Probot", "  Jinjer", "  Gojira"));
     private final ArrayList<String> songList = new ArrayList<>(Arrays.asList("Kai Tangata", "Green Machine",
             "Hardcore", "Centuries of Sin", "Picses - Live Session", "L'enfant sauvage"));
-    private final ArrayList coverList = new ArrayList<>(Arrays.asList(R.drawable.img1,R.drawable.img2,
+    private final ArrayList<Integer> coverList = new ArrayList<>(Arrays.asList(R.drawable.img1,R.drawable.img2,
             R.drawable.img3,R.drawable.img4,R.drawable.img5,R.drawable.img6));
     private boolean isListView = true;
     private boolean isGridView = false;
